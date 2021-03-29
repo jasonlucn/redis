@@ -13,8 +13,8 @@ import (
 	stdredis "github.com/go-redis/redis/v8"
 )
 
-const (
-	ConfigPathTpl = "/db/redis/%s"
+var (
+	ConfigPathTpl = "/conf/db/redis/%s"
 )
 
 var (
